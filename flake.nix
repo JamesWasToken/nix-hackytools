@@ -1,6 +1,6 @@
 {
     inputs = {
-        nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.11";
+        nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
     };
 
     outputs.packages."x86_64-linux".default = let
